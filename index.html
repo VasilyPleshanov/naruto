@@ -2,6 +2,7 @@
 <html lang="ru">
 	<head>
 		<title>Наруто</title>
+		<link rel="stylesheet" href="css/style.css">
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	</head>
 	<body>
@@ -15,97 +16,98 @@
 			</nav>
 		</header>
 		<br />
-		<!-- <img src="img/naruto-1.jpg" alt="LOL )))"> -->
-		<img src="img/naruto-1.jpg" alt="LOL )))">
-		<br />
 		<div>
-			<h2>О мире</h2>
-			<p>Действие всей серии «Наруто» разворачивается в вымышленном мире, социально-политической структурой напоминающем феодальную Японию. Небольшие по размеру государства в нём действуют и развиваются как самостоятельные единицы, управляемые феодалами-даймё.</p>
-			<p>Государства имеют в своём распоряжении скрытые деревни (яп. 隠れ里 какурэдзато), поселения ниндзя, во главе которых стоит независимый правитель — Кагэ. Ниндзя используются в качестве военной силы, а также участвуют в экономической жизни государства, выполняя оплачиваемые миссии — от прополки огородов до вылазок на вражескую территорию.</p>
-			<p>Уровень развития технологий в мире «Наруто» весьма противоречив: с одной стороны, в распоряжении героев имеются современные камеры наблюдения и передатчики, с другой — прогресс практически не затрагивает военную сферу, где полностью отсутствует огнестрельное оружие и боевые машины, намеренно исключённые автором из повествования.</p>
-			<p>В отсутствие достижений военной промышленности персонажи полагаются на сюрикэны, кунаи, мечи и собственные специальные способности, которые включают использование чакры — магической энергии, равнозначной энергии ци, и жестов для её контроля — печатей. Использование чакры подчиняется строгим правилам, которые Кисимото ввёл для того, чтобы иметь возможность легко объяснять повороты сюжета. Автор высказывал опасения, что чакра и складывание печатей, основанных на заимствованных из Китая знаках зодиака, делают мангу «слишком японской», однако сам он доволен ею.</p>
-		</div>
-		<br />
-		<img src="img/akademiy-1.jpg" alt="LOL )))">
-		<br />
-		<div>
-			<h2>Заявление в Академию</h2>
-			<form action="#" method="post" enctype="multipart/form-data">
+			<img src="img/naruto-1.jpg" alt="LOL )))">
+				<br />
 				<div>
-					<p>Имя*</p>
-					<input name="username" type="text" />
+					<h2>О мире</h2>
+					<p>Действие всей серии «Наруто» разворачивается в вымышленном мире, социально-политической структурой напоминающем феодальную Японию. Небольшие по размеру государства в нём действуют и развиваются как самостоятельные единицы, управляемые феодалами-даймё.</p>
+					<p>Государства имеют в своём распоряжении скрытые деревни (яп. 隠れ里 какурэдзато), поселения ниндзя, во главе которых стоит независимый правитель — <span>Кагэ</span>. Ниндзя используются в качестве военной силы, а также участвуют в экономической жизни государства, выполняя оплачиваемые миссии — от прополки огородов до вылазок на вражескую территорию.</p>
+					<p>Уровень развития технологий в мире «Наруто» весьма противоречив: с одной стороны, в распоряжении героев имеются современные камеры наблюдения и передатчики, с другой — прогресс практически не затрагивает военную сферу, где полностью отсутствует огнестрельное оружие и боевые машины, намеренно исключённые автором из повествования.</p>
+					<p>В отсутствие достижений военной промышленности персонажи полагаются на сюрикэны, кунаи, мечи и собственные специальные способности, которые включают использование чакры — магической энергии, равнозначной энергии ци, и жестов для её контроля — <span>печатей</span>. Использование чакры подчиняется строгим правилам, которые Кисимото ввёл для того, чтобы иметь возможность легко объяснять повороты сюжета. Автор высказывал опасения, что чакра и складывание печатей, основанных на заимствованных из Китая знаках зодиака, делают мангу «слишком японской», однако сам он доволен ею.</p>
 				</div>
+				<br />
+				<img src="img/akademiy-1.jpg" alt="LOL )))">
+				<br />
 				<div>
-					<p>Клан</p>
-					<input name="username" type="text" />
+					<h2>Заявление в Академию</h2>
+					<form action="#" method="post" enctype="multipart/form-data">
+						<div>
+							<p>Имя*</p>
+							<input name="username" type="text" />
+						</div>
+						<div>
+							<p>Клан</p>
+							<input name="username" type="text" />
+						</div>
+						<div>
+							<p>E-mail*</p>
+							<input name="username" type="text" />
+						</div>
+						<div>
+							<p>Пол</p>
+							<div>
+								<input checked type="radio"name="gender" value="male" />Шиноби
+							</div>
+							<div>
+								<input type="radio"name="gender" value="female" />Куноичи
+							</div>
+						</div>
+						<div>
+							<p>Что будите изучать?</p>
+							<div>
+								<input checked type="checkbox" name="nj" value="yes" />Ниндзюцу
+							</div>
+							<div>
+								<input type="checkbox" name="tj" value="yes" />Тайдзюцу
+							</div>
+							<div>
+								<input type="checkbox" name="gj" value="yes" />Гендзюцу
+							</div>
+							<div>
+								<input type="checkbox" name="dj" value="yes" />Додзюцу
+							</div>
+						</div>
+						<div>
+							<p>Кем видите себя после академии?</p>
+							<select name="way" >
+								<option selected value="jounin">Джоунин на миссию</option>
+								<option value="sensey">Сен-сей</option>
+								<option value="police">Полиция</option>
+								<option value="anbu">Анбу</option>
+								<option value="hokage">Хокаге</option>
+								<option value="akatsuke">Акацуки</option>
+								<option value="god">Бог шиноби</option>
+								<option value="ramen">Готовить рамен:)</option>
+							</select>
+						</div>
+						<div>
+							<p>Каков Ваш путь ниндзя?</p>
+							<textarea name="text"></textarea>
+						</div>
+						<div>
+							<button type="submit">Отправить</button>
+							<button type="reset">Очистить</button>
+						</div>
+					</form>
 				</div>
+				<br />
+				<img src="img/akademiy-2.jpg" alt="LOL )))">
+				<img src="img/akademiy-3.jpg" alt="LOL )))">
+				<br />
 				<div>
-					<p>E-mail*</p>
-					<input name="username" type="text" />
+					<h2>Мир Наруто это:</h2>
+					<ul>
+						<li>Шиноби и битвы</li>
+						<li>Приключения</li>
+						<li>Легендарные личности</li>
+						<li>Техники и способности</li>
+						<li>Стык традиционной Японии и современности</li>
+					</ul>
 				</div>
-				<div>
-					<p>Пол</p>
-					<div>
-						<input checked type="radio"name="gender" value="male" />Шиноби
-					</div>
-					<div>
-						<input type="radio"name="gender" value="female" />Куноичи
-					</div>
-				</div>
-				<div>
-					<p>Что будите изучать?</p>
-					<div>
-						<input checked type="checkbox" name="nj" value="yes" />Ниндзюцу
-					</div>
-					<div>
-						<input type="checkbox" name="tj" value="yes" />Тайдзюцу
-					</div>
-					<div>
-						<input type="checkbox" name="gj" value="yes" />Гендзюцу
-					</div>
-					<div>
-						<input type="checkbox" name="dj" value="yes" />Додзюцу
-					</div>
-				</div>
-				<div>
-					<p>Кем видите себя после академии?</p>
-					<select name="way" >
-						<option selected value="jounin">Джоунин на миссию</option>
-						<option value="sensey">Сен-сей</option>
-						<option value="police">Полиция</option>
-						<option value="anbu">Анбу</option>
-						<option value="hokage">Хокаге</option>
-						<option value="akatsuke">Акацуки</option>
-						<option value="god">Бог шиноби</option>
-						<option value="ramen">Готовить рамен:)</option>
-					</select>
-				</div>
-				<div>
-					<p>Каков Ваш путь ниндзя?</p>
-					<textarea name="text"></textarea>
-				</div>
-				<div>
-					<button type="submit">Отправить</button>
-					<button type="reset">Очистить</button>
-				</div>
-			</form>
-		</div>
-		<br />
-		<img src="img/akademiy-2.jpg" alt="LOL )))">
-		<img src="img/akademiy-3.jpg" alt="LOL )))">
-		<br />
-		<div>
-			<h2>Мир Наруто это:</h2>
-			<ul>
-				<li>Шиноби и битвы</li>
-				<li>Приключения</li>
-				<li>Легендарные личности</li>
-				<li>Техники и способности</li>
-				<li>Стык традиционной Японии и современности</li>
-			</ul>
-		</div>
-		<br />
-		<img src="img/naruto-2.jpg" alt="LOL )))">
+				<br />
+				<img src="img/naruto-2.jpg" alt="LOL )))">
+			</div>
 		<br />
 		<footer>
 			Naruto.ru
