@@ -39,6 +39,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*===================================================*/
 
 body{
+	width: 1200px;
+	background: url(../img/konoha-1.jpg) 0 0/cover no-repeat;
 	font-size: 20px;
 	line-height: 25px;
 }
@@ -48,30 +50,44 @@ h1{
 	width: 100%;
 	text-align: center;
 	margin: 10px;
-	font-size: 35px;
+	font-size: 50px;
 	text-transform: uppercase;
+	color: #000;
 }
 
 nav{
-	margin: 10px;
-	padding: 0px 0px 0px 500px;
+	width: 400px;
+	border-radius: 20px;
+	border: 1px solid #000;
+	display: block;
+	margin: 20px 20px 20px 400px;
+	text-align: center;
 	letter-spacing: 2px;
 	word-spacing: 5px;
+	background: #fff;
 }
 
 a{
-	color: green;
+	color: #000;
+}
+
+a:hover{
+	color: #ffb300;
+	text-decoration: underline;
+}
+
+a:active{
+	color: #1ca332;
 }
 
 img{
+	height: 250px;
+	width: auto;
 	border-radius: 30px;
 	overflow: hidden;
 	margin: 20px;
-}
-
-.naruto{
-	width: 700px;
-	height: auto;
+	box-shadow: 5px 5px 10px 5px #fff;
+	border: 5px solid #000;
 }
 
 span{
@@ -88,6 +104,7 @@ h2{
 }
 
 .about{
+	margin: 20px;
 	border: 5px solid #000;
 	border-radius: 30px;
 	padding: 20px;
@@ -95,19 +112,16 @@ h2{
 	height: auto;
 	text-indent: 50px;
 	white-space: normal;
-}
-
-.akademiy{
-	width: 700px;
-	height: auto;
+	background: rgba(255, 255, 255, 0.9);
 }
 
 .form{
 	padding: 20px;
-	opacity: 70%;
-	border: 5px dotted #000;
-	border-radius: 20px;
+	opacity: 1;
+	border: 5px solid #000;
+	border-radius: 30px;
 	margin: 0px 20px;
+	background: #fff;
 }
 
 .form p{
@@ -115,10 +129,40 @@ h2{
 	font-weight: 600;
 }
 
+input{
+	border: 1px solid #000;
+}
+
+textarea{
+	border: 1px solid #000;
+}
+
+button{
+	margin: 0px 10px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	background-color: #ffbb00;
+}
+
+button:hover{
+	background-color: #001eff;
+}
+
+button:active{
+	background-color: #1dcc10;
+}
+
 .world{
+	margin: 20px;
+	border-radius: 30px;
 	padding: 20px;
 	visibility: visible;
 	box-shadow: 5px 5px 10px 5px #000, inset 5px 5px 10px 5px #000;
+}
+
+.world li{
+	background: url(../img/suriken.png) left top/20px 20px no-repeat;
+	padding: 0 0 10px 25px;
 }
 
 ul{
@@ -126,5 +170,4 @@ ul{
 }
 
 footer{
-	outline: 5px dashed #000;
 }
