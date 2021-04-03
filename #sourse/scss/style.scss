@@ -32,12 +32,14 @@ body{
 }
 
 .content__image {
+	display: flex;
+	justify-content: center;
 	margin: 0px 0px 50px 0px;
 
 	& img{
 		max-width: 100%;
 		display: block;
-		margin: 0px 0px 0px 140px;
+		//margin: 0px 0px 0px 140px;
 	}
 }
 
@@ -48,11 +50,10 @@ body{
 	line-height: 35px;
 	padding: 0px 25px;
 	margin: 0px 0px 30px 0px;
-
 }
 
 .content-bottom-info {
-	padding: 0px 100px;;
+	padding: 0px 100px;
 }
 .content-bottom-info-list {
 	& li{
@@ -73,7 +74,12 @@ body{
 	}
 }
 
-.content-bottom-info__link {
+.content-bottom-info-link{
+	display: flex;
+	justify-content: center;
+}
+
+.content-bottom-info-link__link {
 	height: 50px;
 	line-height: 50px;
 	display: inline-block;
@@ -83,7 +89,6 @@ body{
 	padding: 0px 30px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin: 0px 0px 0px 200px;
 	font-weight: 500;
 
 	&:hover{
@@ -94,5 +99,11 @@ body{
 	&:active{
 		background-color: #000;
 		transition: .2s;
+	}
+}
+
+@media (max-width: 414px) {
+	.content-bottom-info {
+		padding: 0px 40px;
 	}
 }
