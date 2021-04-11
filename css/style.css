@@ -163,10 +163,15 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 500;
+  transform: scale(1);
+  transition-property: background-color, transform;
+  transition-duration: 0.2s, 0.7s;
 }
 .content-bottom-info-link__link:hover {
   background-color: #c93838;
-  transition: 0.2s;
+  transform: scale(1.1);
+  transition-property: background-color, transform;
+  transition-duration: 0.2s, 1s;
 }
 .content-bottom-info-link__link:active {
   background-color: #000;

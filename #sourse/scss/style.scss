@@ -76,7 +76,7 @@ body{
 			font-weight: 700;
 		}
 
-		&:last-child{
+		&:last-child  
 			margin: 0px 0px 90px 0px;
 		}
 	}
@@ -99,9 +99,16 @@ body{
 	text-transform: uppercase;
 	font-weight: 500;
 
+	transform: scale(1);
+	transition-property: background-color, transform;
+	transition-duration: .2s, .7s;
+
 	&:hover{
 		background-color: #c93838;
-		transition: .2s;
+		transform: scale(1.1);
+		//transition: .2s;
+		transition-property: background-color, transform;
+		transition-duration: .2s, 1s;
 	}
 
 	&:active{
